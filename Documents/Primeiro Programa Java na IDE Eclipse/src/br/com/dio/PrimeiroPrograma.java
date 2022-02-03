@@ -7,10 +7,10 @@ public class PrimeiroPrograma {
 	public static void main(String[] args) {
 		
 		Gato gato = new Gato();
-		Livros livros = new Livros();
+		Carro carro = new Carro();
 		
 		System.out.println(gato);
-		System.out.println(livros);
+		System.out.println(carro);
 		
 		/*int a = 2;
 		int b = 3;
@@ -19,7 +19,7 @@ public class PrimeiroPrograma {
 
 }
 
-class Livros{
-	private String nome;
-	private String npag;
+class Carro{
+	private String marca;
+	private String modelo;
 }
